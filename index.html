@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajkumar | Portfolio</title>
+    <meta name="description" content="Portfolio of Rajkumar, Software Developer and ML Enthusiast building scalable web applications and AI systems.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Glowing Background Orbs -->
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+
+    <nav>
+        <div class="logo">RK.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero reveal">
+        <div class="hero-content">
+            <p class="greeting" style="color: var(--primary); font-family: 'Outfit', sans-serif; font-size: 1.2rem; letter-spacing: 2px; text-transform: uppercase;">Hello World, I'm</p>
+            <h1>RAJKUMAR R</h1>
+            <h2 style="font-size: 2rem; color: var(--text-color); margin-bottom: 1.5rem; opacity: 0.9;">B.E CSE (AIML) Student</h2>
+            <p>Motivated B.E CSE student specializing in Artificial Intelligence and Machine Learning, with strong fundamentals in Python, data structures, and algorithms.</p>
+            <div style="display: flex; gap: 1.5rem; align-items: center;">
+                <a href="#projects" class="cta-btn">View My Work</a>
+                <a href="https://github.com/rajkumarwz680" target="_blank" style="color: white; font-size: 2.2rem; transition: color 0.3s; cursor: none;" onmouseover="this.style.color='var(--primary)'" onmouseout="this.style.color='white'"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="assets/profile.png" alt="Rajkumar - Software Developer" />
+        </div>
+    </section>
+
+    <section id="about" class="reveal">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="about-content" style="max-width: 1000px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; font-size: 1.1rem; color: var(--text-muted); text-align: left;">
+            <div>
+                <h3 style="color: var(--primary); margin-bottom: 1rem; font-family: 'Outfit', sans-serif;">Summary</h3>
+                <p style="margin-bottom: 2rem;">Motivated B.E CSE student specializing in Artificial Intelligence and Machine Learning, with strong fundamentals in Python, data structures, and algorithms. Passionate about building intelligent systems and solving real-world problems through data-driven approaches. Eager to apply technical skills in internships and projects to gain hands-on experience.</p>
+                
+                <h3 style="color: var(--primary); margin-bottom: 1rem; font-family: 'Outfit', sans-serif;">Education</h3>
+                <div style="margin-bottom: 1rem; padding: 1.5rem; background: var(--card-bg); border: 1px solid var(--glass-border); border-radius: 15px;">
+                    <h4 style="color: white; margin-bottom: 0.2rem;">B.E CSE (AIML)</h4>
+                    <p style="font-size: 0.9rem; color: var(--primary);">Rathinam Technical Campus | Coimbatore</p>
+                    <p style="font-size: 0.85rem; margin-bottom: 0.8rem;">08/2023 – 07/2027</p>
+                    <p style="font-size: 0.9rem;">Fundamentals of Computer Science including data structures, algorithms, and programming languages.</p>
+                </div>
+                <div style="padding: 1.5rem; background: var(--card-bg); border: 1px solid var(--glass-border); border-radius: 15px;">
+                    <h4 style="color: white; margin-bottom: 0.2rem;">Higher Secondary</h4>
+                    <p style="font-size: 0.9rem; color: var(--primary);">Sri Venkateshwara Higher Secondary School | Nathakarai, Salem</p>
+                    <p style="font-size: 0.85rem; margin-bottom: 0.8rem;">08/2021 – 04/2023</p>
+                    <p style="font-size: 0.9rem;">Score: 85%</p>
+                </div>
+            </div>
+            
+            <div>
+                <h3 style="color: var(--primary); margin-bottom: 1rem; font-family: 'Outfit', sans-serif;">Skills & Languages</h3>
+                <div class="tags" style="margin-bottom: 2.5rem;">
+                    <span class="tag">Python</span>
+                    <span class="tag">Java</span>
+                    <span class="tag">C</span>
+                    <span class="tag">HTML</span>
+                </div>
+                
+                <h3 style="color: var(--primary); margin-bottom: 1rem; font-family: 'Outfit', sans-serif;">Certificates</h3>
+                <div style="margin-bottom: 2.5rem; padding: 1.5rem; background: var(--card-bg); border: 1px solid var(--glass-border); border-radius: 15px;">
+                    <h4 style="color: white; margin-bottom: 0.2rem;">Introduction to Python Developer</h4>
+                    <p style="font-size: 0.9rem; color: var(--primary);">Datacamp</p>
+                </div>
+
+                <h3 style="color: var(--primary); margin-bottom: 1rem; font-family: 'Outfit', sans-serif;">Hobbies</h3>
+                <div class="tags">
+                    <span class="tag" style="border-color: var(--accent); color: white;">Reading</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="reveal">
+        <h2 class="section-title">Featured <span>Projects</span></h2>
+        <div class="projects-grid">
+            
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div style="overflow: hidden;">
+                    <img src="assets/expense_tracker.png" alt="AI Expense Tracker" class="project-img">
+                </div>
+                <div class="project-info">
+                    <h3>AI Expense Tracker</h3>
+                    <p>A comprehensive financial dashboard that intelligently categorizes and tracks your expenses. Features a robust backend API, caching with Redis, and a beautiful dark mode UI.</p>
+                    <div class="tags">
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Redis</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">Vanilla UI</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> View Code</a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div style="overflow: hidden;">
+                    <img src="assets/cinesync.png" alt="CineSync Recommendation Engine" class="project-img">
+                </div>
+                <div class="project-info">
+                    <h3>CineSync Recommendation System</h3>
+                    <p>A collaborative movie recommendation platform utilizing machine learning pipelines. Designed with a microservice architecture and deployed via Docker for high scalability.</p>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">Full-Stack</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> View Code</a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="reveal">
+        <h2 class="section-title">Get In <span>Touch</span></h2>
+        <div style="text-align: center; max-width: 600px; margin: 0 auto;">
+            <p style="color: var(--text-muted); margin-bottom: 2rem; font-size: 1.1rem;">Currently open for internships and new opportunities. Feel free to reach out to me!</p>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; text-align: left; margin-bottom: 3rem; background: var(--card-bg); padding: 2rem; border-radius: 15px; border: 1px solid var(--glass-border);">
+                <p style="color: white; font-size: 1.05rem;"><i class="fas fa-envelope" style="color: var(--primary); margin-right: 10px;"></i> rajkumarwz680@gmail.com</p>
+                <p style="color: white; font-size: 1.05rem;"><i class="fas fa-phone" style="color: var(--primary); margin-right: 10px;"></i> +91 88257 82752</p>
+                <p style="color: white; font-size: 1.05rem;"><i class="fas fa-map-marker-alt" style="color: var(--primary); margin-right: 10px;"></i> Coimbatore</p>
+                <p style="color: white; font-size: 1.05rem;"><i class="fab fa-github" style="color: var(--primary); margin-right: 10px;"></i> <a href="https://github.com/rajkumarwz680" target="_blank" style="color: white; text-decoration: none;" onmouseover="this.style.color='var(--primary)'" onmouseout="this.style.color='white'">GitHub Profile</a></p>
+                <p style="color: white; font-size: 1.05rem;"><i class="fas fa-calendar-alt" style="color: var(--primary); margin-right: 10px;"></i> 2006-01-22</p>
+            </div>
+
+            <a href="mailto:rajkumarwz680@gmail.com" class="cta-btn" style="background: transparent; border: 2px solid var(--primary); color: var(--primary);">Say Hello</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Designed & Built by Rajkumar © 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
